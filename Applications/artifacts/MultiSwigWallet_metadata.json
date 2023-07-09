@@ -144,6 +144,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "confirmTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					},
@@ -310,11 +323,11 @@
 	},
 	"sources": {
 		"Applications/MultiSigWallet.sol": {
-			"keccak256": "0x7e7344ac4d50bc64cb0aa5710074187af2dac2e46d5c81098cf9794c7df4048b",
+			"keccak256": "0x2c42dc9987d5b2198d174d330f87b6216b885da828d56a548a0ac76718160165",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce7e66a5e2e6b7440e1e08f0be7026921d2ca3910052fefbbab049a49e7e4df6",
-				"dweb:/ipfs/QmaeSQzvw1k1WkkJ4UJpKb66AdDYfoQeQSTvBz4uxHxzik"
+				"bzz-raw://7f7900e3a407af5d40491a36a92ca9e48e7d7522a0ed352a6fadbae5876496c3",
+				"dweb:/ipfs/QmaVBj5o1ffQMAP5sfxRvcRkoL8c51uAvwrAEbP8o4QWME"
 			]
 		}
 	},
