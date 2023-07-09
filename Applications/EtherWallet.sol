@@ -1,4 +1,7 @@
 // SPDX-License-Identifier: MIT
+
+// Anyone can send ETH
+//Only the owner can withdraw
 pragma solidity 0.8.18;
 
 contract EtherWallet {

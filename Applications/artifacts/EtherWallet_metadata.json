@@ -82,11 +82,11 @@
 	},
 	"sources": {
 		"Applications/EtherWallet.sol": {
-			"keccak256": "0xa9cca053f450d099d82d665e085768cc627de8fbfaac85b148c8ffa51a93ade1",
+			"keccak256": "0xd4e7b13f780e67192f9c77d877af223264e5b086e2635fb586086e78a6835908",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b2bdcaa7bdd649515ef5de77cbc54de412b2b67cc77e99d9e1b2e7e645b9fa3e",
-				"dweb:/ipfs/QmQaTfdn6zkfquFY1it9G9UxyWgCHCd6YG9m3BVf3kHuHc"
+				"bzz-raw://d799d4e31aad6c1853ddad829bf5e6f8b90542840db11cfc0778debae4973a05",
+				"dweb:/ipfs/QmaMxPaaMFGJJWKmshBwZ8KLrU7j1JbsTw8qHeSchMM6c2"
 			]
 		}
 	},
