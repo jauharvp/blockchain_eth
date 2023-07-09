@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "greet",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"basicSyntax.sol": "HelloWorld"
+			"basic_syntax.sol": "MyContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"basicSyntax.sol": {
-			"keccak256": "0xe48fea6ed4b2d75384a733840c89f6f12e0f0fee0533f0e4fdd3d25ab32ed9ee",
+		"basic_syntax.sol": {
+			"keccak256": "0xe9d2aad22031bf94e3a22c1cc1a10f639c63a24c3022151f9b7f34a6e78762e4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0955547b5d4da3594fe0a27b32a25108c2df6ed8bf76df18504882f8897efc38",
-				"dweb:/ipfs/QmY7ffN3AGWN7NMwYvvkYjHLXjE1cmVQLPW8CxceJYLTVX"
+				"bzz-raw://ee5022e3c6da6277787713b8123a79c48e95d1f110b594fce3f9a930024b1df6",
+				"dweb:/ipfs/QmUsmM4ZG7tEEtpgAQG3eGwtLq9LpLapkSFvSzCzGrDoCm"
 			]
 		}
 	},
