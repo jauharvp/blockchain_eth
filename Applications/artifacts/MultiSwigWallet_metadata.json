@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_owners",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numConfirmationsRequired",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -127,6 +143,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isConfirmed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -174,6 +214,72 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "submitTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "executed",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numConfirmations",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -204,11 +310,11 @@
 	},
 	"sources": {
 		"Applications/MultiSigWallet.sol": {
-			"keccak256": "0x54fdc5cc12998cf301326861189dafb421974a15545e970862ef6d47d9dad605",
+			"keccak256": "0x7e7344ac4d50bc64cb0aa5710074187af2dac2e46d5c81098cf9794c7df4048b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8ebfdc4b30b788e7082ada25429687bdd086971336b924451e2f07d0dd5fb557",
-				"dweb:/ipfs/QmeKnV3gY4R4Y1CaTFMunsmvXEWHgawCkn8t7yErcGSbqz"
+				"bzz-raw://ce7e66a5e2e6b7440e1e08f0be7026921d2ca3910052fefbbab049a49e7e4df6",
+				"dweb:/ipfs/QmaeSQzvw1k1WkkJ4UJpKb66AdDYfoQeQSTvBz4uxHxzik"
 			]
 		}
 	},
